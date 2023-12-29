@@ -1,1 +1,22 @@
+<style>
+  .coloured-slider {
+    --divider-color: rgba(0, 0, 0, 0.5);
+    --default-handle-color: rgba(0, 0, 0, 0.5);
+  }
+</style>
 
+<script
+defer
+src="https://cdn.jsdelivr.net/npm/img-comparison-slider@8/dist/index.js"
+></script>
+<link
+rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/img-comparison-slider@8/dist/styles.css"
+/>
+
+
+
+<img-comparison-slider class="coloured-slider">
+  <img slot="first" width="100%" src="https://i.imgur.com/trf7Rry.png">
+  <img slot="second" width="100%" src="https://i.imgur.com/yp4M99q.png">
+</img-comparison-slider>
